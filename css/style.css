@@ -63,3 +63,28 @@ nav{
 .btn-login:hover{
     background-color: #711904;
 }
+
+/* Banner principal */
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 13em 0;
+    position: relative;
+}
+
+.banner h1, .banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner h1{
+    font-size: 54px;
+}
+
+.banner p{
+    font-size: 32px;
+}

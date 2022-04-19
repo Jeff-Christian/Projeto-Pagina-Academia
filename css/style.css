@@ -220,3 +220,50 @@ nav{
 .plan .recommended{
     background-color: #dc0a17;
 }
+
+/* Área de novidades */
+
+.news-container{
+    background-color: black;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.news-container h2{
+    color: #fff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+.news-container p{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+.news-container form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.news-container input{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.news-container input[type=submit]{
+    background-color: #fff;
+    width: 100px;
+    margin-left: -50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}

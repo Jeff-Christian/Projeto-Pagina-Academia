@@ -136,3 +136,23 @@ nav{
 .specialties-container ul li p{
     line-height: 25px;
 }
+
+/* Preços */
+
+.pricing-container{
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.pricing-container h1{
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-container p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Planos */

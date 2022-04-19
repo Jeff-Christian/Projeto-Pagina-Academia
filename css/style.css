@@ -156,3 +156,67 @@ nav{
 }
 
 /* Planos */
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan{
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+.plan li{
+    background-color: #fcb823;
+    height: 60px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #801D1D;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: tomato;
+    padding-top: 60px;
+}
+
+.plan .plan-btn{
+    background-color: tomato;
+    color: #fff;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recommended{
+    background-color: #dc0a17;
+}

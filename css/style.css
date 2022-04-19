@@ -88,3 +88,51 @@ nav{
 .banner p{
     font-size: 32px;
 }
+
+/* Especialidades */
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.specialties-container ul li{
+    flex: 1 1 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-dumbbell{
+    font-size: 60px;
+    color: #fcb823;
+    margin-bottom: 20px;
+}
+
+.fa-plate-wheat{
+    font-size: 60px;
+    color: #45da7d;
+    margin-bottom: 20px;
+}
+
+.fa-heart-pulse{
+    font-size: 60px;
+    color: #dc0a17;
+    margin-bottom: 20px;
+}
+
+.specialties-container ul li h3{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.specialties-container ul li p{
+    line-height: 25px;
+}

@@ -313,3 +313,11 @@ nav{
     margin-right: auto;
     color: #fff;
 }
+
+/* footer */
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
